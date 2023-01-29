@@ -179,9 +179,11 @@ body {
 .feedback {
   text-decoration: none;
   color: #fff;
-  transform: translate(-130%, -1000%);
+  top:10px;
+  left: 10px;
   font-size: 3rem;
   transition: all 0.3s;
+  position: absolute;
 }
 
 .feedback:hover,
@@ -228,7 +230,6 @@ body {
 
 #feed{
   position: absolute;
-  margin-left: -130rem;
 }
 
 /*text*/
